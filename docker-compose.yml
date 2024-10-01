@@ -1,0 +1,6 @@
+services:
+  solver:
+    build: .
+    container_name: bibds-solver
+    volumes:
+      - "./bibds.json:/app/bibds.json"
